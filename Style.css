@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+
+.mainmenu{
+    display: flex;
+    background-color: #253C80;
+    height: 87px;
+    list-style: none;
+    width:100%;
+    text-decoration: none;
+    color: #e6e6e6;
+    justify-content: center;
+}
+
+.logo{
+    width: 17.5%;
+}
+
+.Topnavbuttons{
+    display: flex;
+    font-size: 25px;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.navbar>a{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: 'Rubik Doodle Shadow', Sans-Serif;
+    border-left: 1.5px solid #e6e6e6;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.aboutus>a{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: 'Rubik Doodle Shadow', Sans-Serif;
+    border-right: 1.5px solid #e6e6e6;
+    border-left: 1.5px solid #e6e6e6;
+    padding-left: 30px;
+    padding-right: 30px;
+}
