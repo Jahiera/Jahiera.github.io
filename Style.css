@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .mainmenu{
     display: flex;
     background-color: #253C80;
@@ -12,7 +17,11 @@
 }
 
 .logo{
-    width: 17.5%;
+    size: 17%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-right: 10px;
 }
 
 .Topnavbuttons{
@@ -39,4 +48,36 @@
     border-left: 1.5px solid #e6e6e6;
     padding-left: 30px;
     padding-right: 30px;
+}
+
+.bg{
+    width: 100vw; 
+    height: 100vh;
+    display: flex;
+}
+
+.banner{
+    width: 100vw;
+    height: 72vh;
+    display: flex;
+}
+
+
+
+.container{
+    position: relative;
+    text-align: center;
+    color: #e6e6e6;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 8px;
+    top: 80%;
+    font-family: 'Rubik Doodle Shadow', Sans-Serif;
+    color:#253C80;
+    font-size: 50px;
+    background-color: #e6e6e6;
+    left: 36%;
+    padding: 15px;
 }
