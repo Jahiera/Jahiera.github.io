@@ -52,14 +52,13 @@
 
 .bg{
     width: 100vw; 
-    height: 100vh;
+    height: 87vh;
     display: flex;
 }
 
 .banner{
     width: 100vw;
-    height: 72vh;
-    display: flex;
+    height: 40vh;
 }
 
 
@@ -76,79 +75,19 @@
     top: 80%;
     font-family: 'Rubik Doodle Shadow', Sans-Serif;
     color:#253C80;
-    font-size: 50px;
-    background-color: #e6e6e6;
-    left: 36%;
+    font-size: 40px;
+    background-color: white;
+    left: 40%;
+    right: auto;
     padding: 15px;
+
 }
 
 .showcase{
     padding: 40px;
-    width: 40vw;
-}
-
-:root{
-    --nav-ctrl-color: black;
-    --nav-ctrl-size: 1.25rem;
-    --nav-ctrl-inner-size: 1rem;
-}
-
-.banner-content{
     display: flex;
-    justify-content: center;
 }
 
-.banner-item{
-    background-color: red;
-    padding-bottom: 30%;
-}
-
-.banner-nav {
-    display: flex;
-    justify-content: center;
-
-}
-
-.nav-dot {
-    align-items: center;
-    display:flex;
-    border-color: var(--nav-ctrl-color);
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 100%;
-    height: var(--nav-ctrl-size);
-    width: var(--nav-ctrl-size);
-    justify-content: center;
-    margin: 0 .25rem;
-}
-
-.nav-dot-inner{
-background-color: var(--nav-ctrl-color);
-border-radius: 100%;
-display: block;
-height: 0;
-transition: all .2s ease;
-width: 0;
-}
-
-.nav-dot:hover .nav-dot-inner{
-    opacity: .5;
-    height: var(--nav-ctrl-inner-size);
-    width: var(--nav-ctrl-inner-size);
-}
-
-#bnr-1-ctrl:checked ~ .banner-nav #bnr-1-dot .nav-dot-inner{
-    opacity: 1;
-    height: var(--nav-ctrl-inner-size);
-    width: var(--nav-ctrl-inner-size);
-}
-#bnr-2-ctrl:checked ~ .banner-nav #bnr-2-dot .nav-dot-inner{
-    opacity: 1;
-    height: var(--nav-ctrl-inner-size);
-    width: var(--nav-ctrl-inner-size);
-}
-#bnr-3-ctrl:checked ~ .banner-nav #bnr-3-dot .nav-dot-inner{
-    opacity: 1;
-    height: var(--nav-ctrl-inner-size);
-    width: var(--nav-ctrl-inner-size);
+.pictures{
+    width: 25%;
 }
