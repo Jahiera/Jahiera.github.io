@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+
+a{
+    text-decoration: none;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+/*HEADER. DO NOT TOUCH*/
+}
+.mainmenu{
+    display: flex;
+    background-color: #253C80;
+    height: 10%;
+    list-style: none;
+    width:100%;
+    text-decoration: none;
+    color: #e6e6e6;
+    justify-content: center;
+}
+
+.logo img{
+    display: flex;
+    margin-right: 10px;
+    max-width: 90px;
+}
+
+.Topnavbuttons{
+    display: flex;
+    font-size: 2rem;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.navbar{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: 'Rubik Doodle Shadow', Sans-Serif;
+    border-left: 1.5px solid #e6e6e6;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar:hover{
+    background-color: #142042;
+    overflow: hidden;   
+}
+
+.aboutus{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: 'Rubik Doodle Shadow', Sans-Serif;
+    border-right: 1.5px solid #e6e6e6;
+    border-left: 1.5px solid #e6e6e6;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*HEADER. DO NOT TOUCH*/
+
+.title{
+    text-align: center;
+    font-family: 'Rubik Doodle Shadow', Sans-Serif;
+    color: #BF7166;
+    font-size: 300%;
+    margin-top: 2%;
+}
+
+.subtitle{
+    text-align: center;
+    font-family: 'Salsa', Sans-Serif;
+    color: #253C80;
+    font-size: 150%;
+}
+
+.cardscontainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+}
+.help{
+    padding: 0px;
+    margin: 0px;
+}
+
+.card1{
+   justify-content: center;
+}
+
+.cardoutline{
+    border-radius: 16px;
+    overflow: hidden;
+    border: solid 10px #687E9B;
+}
+
+
+.card2{
+    justify-content: center;
+    margin-left:7%;
+ }
+
+h2{
+    font-family: 'Rubik Doodle Shadow', Sans-Serif;
+    color: #e6e6e6;
+    background-color: #253C80;
+    padding-top: 5%;
+    padding-left: 4%;
+}
+
+.subtext{
+    font-family: 'Salsa', Sans-Serif;
+    color: #e6e6e6;
+    background-color: #253C80;
+    padding-top: 2%;
+    padding-left: 4%;
+}
+
+.readmore{
+    position: relative;
+    margin-top: 4%;
+    margin-left: 3%;
+    padding: 2%;
+    background-color: #e6e6e6;
+    color: #253C80;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.readmore:hover{
+    background-color: #b1b2b6;
+    color: #142042;
+}
+
+.bluebox{
+    background-color: #253C80;
+    padding-bottom: 10%;
+    align-content: center;
+}
+
+/*FOOTER. DO NOT TOUCH*/
+.footermenu{
+    display: flex;
+    background-color: #253C80;
+    height: 10%;
+    list-style: none;
+    width:100%;
+    text-decoration: none;
+    color: #e6e6e6;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.flogo{
+    padding-top: 2%;
+}
+.flogo img{
+    display: flex;
+    margin-right: 10px;
+    max-width: 200px;
+    top: 4%;
+}
+.footerbuttons{
+    display: flex;
+    font-size: 1.5rem;
+    padding-top: 3%;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.footer{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: 'Salsa', Sans-Serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+}
+
+.footer:hover{
+    color: #8086a1;
+    overflow: hidden;   
+}
+
+.fsubclasses{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: 'Salsa', Sans-Serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-left: 20%;
+    font-size:1.2rem;
+    margin-top: 5%;
+}
+
+.fsubclasses:hover{
+    color: #8086a1;
+    overflow: hidden;   
+}
+/*FOOTER. DO NOT TOUCH*/

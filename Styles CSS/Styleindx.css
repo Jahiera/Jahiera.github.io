@@ -10,6 +10,8 @@ a{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+/*HEADER. DO NOT TOUCH*/
 }
 .mainmenu{
     display: flex;
@@ -58,6 +60,7 @@ a{
     padding-left: 30px;
     padding-right: 30px;
 }
+/*HEADER. DO NOT TOUCH*/
 
 .aboutus:hover{
     background-color: #142042;
@@ -167,6 +170,7 @@ a{
     font-family: 'Salsa', cursive;
 }
 
+/*FOOTER. DO NOT TOUCH*/
 .footermenu{
     display: flex;
     background-color: #253C80;
@@ -225,3 +229,4 @@ a{
     color: #8086a1;
     overflow: hidden;   
 }
+/*FOOTER. DO NOT TOUCH*/
