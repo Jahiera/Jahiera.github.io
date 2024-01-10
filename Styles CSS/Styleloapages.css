@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Salsa&display=swap');
+
+
+a{
+    text-decoration: none;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+/*HEADER. DO NOT TOUCH*/
+}
+.mainmenu{
+    display: flex;
+    background-color: #253C80;
+    height: 10%;
+    list-style: none;
+    width:100%;
+    text-decoration: none;
+    color: #e6e6e6;
+    justify-content: center;
+}
+
+.logo img{
+    display: flex;
+    margin-right: 10px;
+    max-width: 90px;
+}
+
+.Topnavbuttons{
+    display: flex;
+    font-size: 2rem;
+    padding-top: 25px;
+    text-decoration: none;
+}
+
+.navbar{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: 'Rubik Doodle Shadow', Sans-Serif;
+    border-left: 1.5px solid #e6e6e6;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar:hover{
+    background-color: #142042;
+    overflow: hidden;   
+}
+
+.aboutus{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: 'Rubik Doodle Shadow', Sans-Serif;
+    border-right: 1.5px solid #e6e6e6;
+    border-left: 1.5px solid #e6e6e6;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+/*HEADER. DO NOT TOUCH*/
+.title{
+    text-align: center;
+    font-family: 'Rubik Doodle Shadow', Sans-Serif;
+    color: #BF7166;
+    font-size: 3rem;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.subtitle{
+    color: #253C80;
+    font-family: 'Salsa', Sans-Serif;
+    font-size: 1.3rem;
+    text-align: center;
+    width: 50rem;
+}
+
+.text{
+    color: #535e80;
+    font-family: 'Salsa', Sans-Serif;
+    font-size: 1.5rem;
+    width: 50rem;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.center{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+
+/*FOOTER. DO NOT TOUCH*/
+.footermenu{
+    display: flex;
+    background-color: #253C80;
+    height: 10%;
+    list-style: none;
+    width:100%;
+    text-decoration: none;
+    color: #e6e6e6;
+    justify-content: center;
+    margin-top: 15%;
+}
+
+.flogo{
+    padding-top: 2%;
+}
+.flogo img{
+    display: flex;
+    margin-right: 10px;
+    max-width: 200px;
+    top: 4%;
+}
+.footerbuttons{
+    display: flex;
+    font-size: 1.5rem;
+    padding-top: 3%;
+    text-decoration: none;
+    justify-content: center;
+}
+
+.footer{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: 'Salsa', Sans-Serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: center;
+}
+
+.footer:hover{
+    color: #8086a1;
+    overflow: hidden;   
+}
+
+.fsubclasses{
+    color: #e6e6e6;
+    text-decoration: none;
+    font-family: 'Salsa', Sans-Serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-left: 20%;
+    font-size:1.2rem;
+    margin-top: 5%;
+}
+
+.fsubclasses:hover{
+    color: #8086a1;
+    overflow: hidden;   
+}
+/*FOOTER. DO NOT TOUCH*/
