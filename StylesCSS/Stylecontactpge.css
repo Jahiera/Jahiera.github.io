@@ -92,7 +92,7 @@ a{
     border: #142042 solid 1px;
     border-radius: 10px;
     overflow: hidden;
-    size: 100%;
+    width: 20%;
 }
 
 .container .row{
