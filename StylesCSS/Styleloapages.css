@@ -111,8 +111,9 @@ a{
 }
 
 .layout img{
-    width: 25%;
+    width: 100%;
     border-radius: 10px;
+    min-width: 25%;
 }
 
 /*FOOTER. DO NOT TOUCH*/
