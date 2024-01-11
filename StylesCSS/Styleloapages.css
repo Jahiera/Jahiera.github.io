@@ -81,7 +81,7 @@ a{
 .text{
     color: #535e80;
     font-family: 'Salsa', Sans-Serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 3%;
     margin-left: 1%;
     line-height: 3rem;
@@ -90,7 +90,7 @@ a{
 .text2{
     color: #535e80;
     font-family: 'Salsa', Sans-Serif;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     margin-bottom: 3%;
     margin-right: 1%;
     line-height: 3rem;
@@ -113,7 +113,8 @@ a{
 .layout img{
     width: 100%;
     border-radius: 10px;
-    min-width: 25%;
+    min-width: 30%;
+    min-height: 30%;
 }
 
 /*FOOTER. DO NOT TOUCH*/
