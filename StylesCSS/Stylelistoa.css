@@ -82,9 +82,21 @@ a{
     justify-content: center;
     margin-top: 4%;
 }
-.help{
-    padding: 0px;
-    margin: 0px;
+
+.button{
+    background-color: #e6e6e6;
+    color: #142042;
+    font-family: 'Salsa', Sans-Serif;
+    font-size: 1rem;
+    max-width: 5%;
+    padding: 1.5%;
+    margin-left: 4%;
+    border-radius: 8px;
+}
+
+.button:hover{
+    background-color: #b1b2b6;
+    color: #142042;
 }
 
 .card1{
@@ -117,6 +129,7 @@ h2{
     background-color: #253C80;
     padding-top: 2%;
     padding-left: 4%;
+    padding-bottom: 7%;
 }
 
 .readmore{
